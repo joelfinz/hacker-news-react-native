@@ -1,11 +1,11 @@
 import React from "react"
-import { Appbar, Text } from "react-native-paper"
+import { Appbar, Text, Title } from "react-native-paper"
 
 const AppBarComp = () => {
   return (
     <Appbar>
       <Appbar.Header>
-        <Text>Hacker News</Text>
+        <Title>Hacker News</Title>
       </Appbar.Header>
     </Appbar>
   )
